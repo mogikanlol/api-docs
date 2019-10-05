@@ -1,0 +1,10 @@
+asyncapi: 2.0.0
+info:
+  title: example-service
+  version: '1.0.0'
+channels:
+  example-topic:
+    subscribe:
+      message:
+        payload:
+          $ref: './payload/example-message.json'

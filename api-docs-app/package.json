@@ -1,0 +1,10 @@
+{
+  "name": "api-docs-app",
+  "description": "Async-Api html docs ",
+  "dependencies": {
+    "asyncapi-generator": "^0.18.1"
+  },
+  "scripts": {
+    "build": "node build-script.js"
+  }
+}
